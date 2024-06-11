@@ -1,0 +1,317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{243C8EAD-EF48-4E36-8285-1D2062B192B2}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\desktop\\prn212\\assignment1\\vuhuongtrang_se1819_a01\\dataaccesslayer\\bookingreservationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C8EAD-EF48-4E36-8285-1D2062B192B2}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\bookingreservationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C8EAD-EF48-4E36-8285-1D2062B192B2}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\desktop\\prn212\\assignment1\\vuhuongtrang_se1819_a01\\dataaccesslayer\\bookingdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C8EAD-EF48-4E36-8285-1D2062B192B2}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\bookingdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C8EAD-EF48-4E36-8285-1D2062B192B2}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\desktop\\prn212\\assignment1\\vuhuongtrang_se1819_a01\\dataaccesslayer\\roominformationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C8EAD-EF48-4E36-8285-1D2062B192B2}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\roominformationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C8EAD-EF48-4E36-8285-1D2062B192B2}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\desktop\\prn212\\assignment1\\vuhuongtrang_se1819_a01\\dataaccesslayer\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C8EAD-EF48-4E36-8285-1D2062B192B2}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C8EAD-EF48-4E36-8285-1D2062B192B2}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\desktop\\prn212\\assignment1\\vuhuongtrang_se1819_a01\\dataaccesslayer\\roomtypedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C8EAD-EF48-4E36-8285-1D2062B192B2}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\roomtypedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D163984-CF1C-437F-9533-59561C87E2B9}|VuHuongTrangWPF\\VuHuongTrangWPF.csproj|c:\\users\\admin\\desktop\\prn212\\assignment1\\vuhuongtrang_se1819_a01\\vuhuongtrangwpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1D163984-CF1C-437F-9533-59561C87E2B9}|VuHuongTrangWPF\\VuHuongTrangWPF.csproj|solutionrelative:vuhuongtrangwpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAA296-BB96-4873-8A64-81B1804B868C}|BusinessObjects\\BusinessObjects.csproj|C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\businessobjects\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFAA296-BB96-4873-8A64-81B1804B868C}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAA296-BB96-4873-8A64-81B1804B868C}|BusinessObjects\\BusinessObjects.csproj|C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\businessobjects\\roominformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFAA296-BB96-4873-8A64-81B1804B868C}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\roominformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAA296-BB96-4873-8A64-81B1804B868C}|BusinessObjects\\BusinessObjects.csproj|C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\businessobjects\\fuminihotelmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFAA296-BB96-4873-8A64-81B1804B868C}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\fuminihotelmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAA296-BB96-4873-8A64-81B1804B868C}|BusinessObjects\\BusinessObjects.csproj|C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\businessobjects\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFAA296-BB96-4873-8A64-81B1804B868C}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAA296-BB96-4873-8A64-81B1804B868C}|BusinessObjects\\BusinessObjects.csproj|C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\businessobjects\\bookingreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFAA296-BB96-4873-8A64-81B1804B868C}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\bookingreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAA296-BB96-4873-8A64-81B1804B868C}|BusinessObjects\\BusinessObjects.csproj|C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\businessobjects\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFAA296-BB96-4873-8A64-81B1804B868C}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49393384-DB77-4775-8D58-F1F09B7CAA69}|Services\\Services.csproj|C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49393384-DB77-4775-8D58-F1F09B7CAA69}|Services\\Services.csproj|solutionrelative:services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7165936-45FE-4238-B95B-19EB2FC2F071}|Repositories\\Repositories.csproj|C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7165936-45FE-4238-B95B-19EB2FC2F071}|Repositories\\Repositories.csproj|solutionrelative:repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C8EAD-EF48-4E36-8285-1D2062B192B2}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\dataaccesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C8EAD-EF48-4E36-8285-1D2062B192B2}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAA296-BB96-4873-8A64-81B1804B868C}|BusinessObjects\\BusinessObjects.csproj|C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\businessobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFAA296-BB96-4873-8A64-81B1804B868C}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D163984-CF1C-437F-9533-59561C87E2B9}|VuHuongTrangWPF\\VuHuongTrangWPF.csproj|C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\vuhuongtrangwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D163984-CF1C-437F-9533-59561C87E2B9}|VuHuongTrangWPF\\VuHuongTrangWPF.csproj|solutionrelative:vuhuongtrangwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D163984-CF1C-437F-9533-59561C87E2B9}|VuHuongTrangWPF\\VuHuongTrangWPF.csproj|C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\vuhuongtrangwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D163984-CF1C-437F-9533-59561C87E2B9}|VuHuongTrangWPF\\VuHuongTrangWPF.csproj|solutionrelative:vuhuongtrangwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingReservationDAO.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\DataAccessLayer\\BookingReservationDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\BookingReservationDAO.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\DataAccessLayer\\BookingReservationDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\BookingReservationDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T05:40:28.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingDetailDAO.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\DataAccessLayer\\BookingDetailDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\BookingDetailDAO.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\DataAccessLayer\\BookingDetailDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\BookingDetailDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T05:39:48.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomInformationDAO.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\DataAccessLayer\\RoomInformationDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\RoomInformationDAO.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\DataAccessLayer\\RoomInformationDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\RoomInformationDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T05:38:52.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerDAO.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\DataAccessLayer\\CustomerDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\CustomerDAO.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\DataAccessLayer\\CustomerDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\CustomerDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:50:45.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoomTypeDAO.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\DataAccessLayer\\RoomTypeDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\RoomTypeDAO.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\DataAccessLayer\\RoomTypeDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\RoomTypeDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:50:19.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\VuHuongTrangWPF\\appsettings.json",
+              "RelativeDocumentMoniker": "VuHuongTrangWPF\\appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\VuHuongTrangWPF\\appsettings.json",
+              "RelativeToolTip": "VuHuongTrangWPF\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-11T04:45:26.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoomType.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\BusinessObjects\\RoomType.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\RoomType.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\BusinessObjects\\RoomType.cs",
+              "RelativeToolTip": "BusinessObjects\\RoomType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:20:03.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoomInformation.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\BusinessObjects\\RoomInformation.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\RoomInformation.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\BusinessObjects\\RoomInformation.cs",
+              "RelativeToolTip": "BusinessObjects\\RoomInformation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:20:02.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FuminiHotelManagementContext.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\BusinessObjects\\FuminiHotelManagementContext.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\FuminiHotelManagementContext.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\BusinessObjects\\FuminiHotelManagementContext.cs",
+              "RelativeToolTip": "BusinessObjects\\FuminiHotelManagementContext.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA/wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:19:53.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\BusinessObjects\\Customer.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Customer.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\BusinessObjects\\Customer.cs",
+              "RelativeToolTip": "BusinessObjects\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:19:51.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookingReservation.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\BusinessObjects\\BookingReservation.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\BookingReservation.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\BusinessObjects\\BookingReservation.cs",
+              "RelativeToolTip": "BusinessObjects\\BookingReservation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:19:49.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookingDetail.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\BusinessObjects\\BookingDetail.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\BookingDetail.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\BusinessObjects\\BookingDetail.cs",
+              "RelativeToolTip": "BusinessObjects\\BookingDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:19:46.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\Services\\Class1.cs",
+              "RelativeDocumentMoniker": "Services\\Class1.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\Services\\Class1.cs",
+              "RelativeToolTip": "Services\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T03:32:59.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\Repositories\\Class1.cs",
+              "RelativeDocumentMoniker": "Repositories\\Class1.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\Repositories\\Class1.cs",
+              "RelativeToolTip": "Repositories\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T03:32:42.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\DataAccessLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Class1.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\DataAccessLayer\\Class1.cs",
+              "RelativeToolTip": "DataAccessLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T03:32:21.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\BusinessObjects\\Class1.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Class1.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\BusinessObjects\\Class1.cs",
+              "RelativeToolTip": "BusinessObjects\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T03:31:59.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\VuHuongTrangWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "VuHuongTrangWPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\VuHuongTrangWPF\\MainWindow.xaml",
+              "RelativeToolTip": "VuHuongTrangWPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-11T03:30:16.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\VuHuongTrangWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "VuHuongTrangWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PRN212\\assignment1\\VuHuongTrang_SE1819_A01\\VuHuongTrangWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "VuHuongTrangWPF\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T03:30:14.915Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
