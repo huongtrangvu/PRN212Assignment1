@@ -1,0 +1,140 @@
+﻿<Window x:Class="VuHuongTrangWPF.AdminWindows.DetailManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VuHuongTrangWPF.AdminWindows"
+        mc:Ignorable="d"
+        Title="DetailManagement" Height="500" Width="800" Cursor="AppStarting" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Loaded="Window_Loaded">
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                <GradientStop Color="#060531" Offset="0"/>
+                <GradientStop Color="#333238" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="119.415"/>
+            <ColumnDefinition Width="30.585"/>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="96*"/>
+            <ColumnDefinition Width="12*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lbTitle" Content="Customer Management" Grid.Column="3" Grid.Row="0" FontSize="36" Grid.ColumnSpan="2" HorizontalAlignment="Left" Width="466" Foreground="White" Margin="37,0,0,0"/>
+        <DataGrid x:Name="dgData" Margin="4,16,4,97" Grid.Column="2" Grid.Row="1"
+      Grid.ColumnSpan="4" SelectionChanged="dgData_SelectionChanged" Grid.RowSpan="6"/>
+        <Button x:Name="btnCustomer" Content="Customers" HorizontalAlignment="Left" Grid.RowSpan="2" Grid.Row="1" VerticalAlignment="Center" Width="154" Grid.ColumnSpan="3" Height="28" Click="btnCustomer_Click"/>
+        <Button x:Name="btnBooking" Content="Bookings" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Top" Width="154" Grid.ColumnSpan="3" Height="30" Click="btnBooking_Click" Margin="0,13,0,0" Grid.RowSpan="2"/>
+        <Button x:Name="btnRoom" Content="Rooms" HorizontalAlignment="Left" Grid.RowSpan="2" Grid.Row="2" VerticalAlignment="Top" Width="154" Grid.ColumnSpan="3" Height="30" Click="btnRoom_Click" Margin="0,14,0,0"/>
+        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="0,168,0,25" Grid.Row="6" Width="100" Background="#FF00C81A" BorderBrush="White" Foreground="White" Grid.ColumnSpan="2" Grid.Column="2" Click="btnCreate_Click" Grid.RowSpan="2"/>
+        <Button x:Name="btnReport" Content="Report" Margin="24,168,356,25" Grid.Row="6" Background="#FFFF00" Width="100" BorderBrush="White" Foreground="White" Click="btnReport_Click" Grid.RowSpan="2" Grid.Column="4"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="153,168,0,25" Grid.Row="6" Width="100" Background="#FFC86500" BorderBrush="White" Foreground="White" Grid.Column="4" Click="btnUpdate_Click" Grid.RowSpan="2" RenderTransformOrigin="0.975,0.509"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="286,168,0,25" Grid.Row="6" Width="100" Background="#FFC81D00" BorderBrush="White" Foreground="White" Grid.Column="4" Click="btnDelete_Click" Grid.RowSpan="2" RenderTransformOrigin="0.637,0.661"/>
+        <Button x:Name="btnClose" Content="Close" Grid.Column="4" HorizontalAlignment="Left" Margin="410,168,0,25" Grid.Row="6" Width="100" Background="#FFEF8F18" Foreground="White" Click="btnClose_Click" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <DatePicker x:Name="dpStartDate" Grid.Column="2" HorizontalAlignment="Left" Margin="4,123,0,0" Grid.Row="6" VerticalAlignment="Top" Height="26" Width="321" Grid.ColumnSpan="3"/>
+        <DatePicker x:Name="dpEndDate" Grid.Column="4" HorizontalAlignment="Left" Margin="242,123,0,0" Grid.Row="6" VerticalAlignment="Top" Height="26" Width="288" Grid.ColumnSpan="2"/>
+        <Label x:Name="lbStartDate" Grid.Column="2" Content="Start Date" HorizontalAlignment="Left" Margin="6,98,0,0" Grid.Row="6" VerticalAlignment="Top" RenderTransformOrigin="-0.009,0.834" Foreground="White" Grid.ColumnSpan="2" Width="81"/>
+        <Label x:Name="lbEndDate" Grid.Column="4" Content="End Date" HorizontalAlignment="Left" Margin="242,98,0,0" Grid.Row="6" VerticalAlignment="Top" RenderTransformOrigin="-0.009,0.834" Foreground="White" Width="81"/>
+        <Popup Name="CustomerPopUp" Placement="Center" StaysOpen="False" AllowsTransparency="True">
+            <Border Background="White" BorderBrush="Black" BorderThickness="1" Padding="10">
+                <StackPanel>
+                    <TextBlock Text="Enter Information:" Margin="0,0,0,10" FontWeight="Bold"/>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <TextBlock Text="ID:" Width="100" VerticalAlignment="Center"/>
+                        <TextBox x:Name="IDTextBox" Width="200" IsEnabled="False"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <TextBlock Text="Name:" Width="100" VerticalAlignment="Center"/>
+                        <TextBox x:Name="NameTextBox" Width="200"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <TextBlock Text="Email:" Width="100" VerticalAlignment="Center"/>
+                        <TextBox x:Name="EmailTextBox" Width="200"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <TextBlock Text="Address:" Width="100" VerticalAlignment="Center"/>
+                        <TextBox x:Name="AddressTextBox" Width="200"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <TextBlock Text="Phone:" Width="100" VerticalAlignment="Center"/>
+                        <TextBox x:Name="PhoneTextBox" Width="200"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <TextBlock Text="Password:" Width="100" VerticalAlignment="Center"/>
+                        <TextBox x:Name="PasswordBox" Width="200"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <TextBlock Text="BirthDate:" Width="100" VerticalAlignment="Center"/>
+                        <DatePicker x:Name="BirthDatePicker" Width="200"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+                        <Button Content="OK" Click="CustomerPopUp_OkButton_Click" Width="75" Margin="0,0,5,0"/>
+                        <Button Content="Cancel" Click="CustomerPopUp_CancelButton_Click" Width="75"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Popup>
+        <Popup Name="RoomPopup" Placement="Center" StaysOpen="False" AllowsTransparency="True">
+            <Border Background="White" BorderBrush="Black" BorderThickness="1" Padding="10">
+                <StackPanel>
+                    <TextBlock Text="Nhập thông tin phòng:" Margin="0,0,0,10" FontWeight="Bold"/>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <TextBlock Text="Số phòng:" Width="100" VerticalAlignment="Center"/>
+                        <TextBox x:Name="RoomNumberTextBox" Width="200"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <TextBlock Text="Mô tả:" Width="100" VerticalAlignment="Center"/>
+                        <TextBox x:Name="RoomDescriptionTextBox" Width="200"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <TextBlock Text="Sức chứa tối đa:" Width="100" VerticalAlignment="Center"/>
+                        <TextBox x:Name="MaxCapacityTextBox" Width="200"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <TextBlock Text="Trạng thái:" Width="100" VerticalAlignment="Center"/>
+                        <ComboBox x:Name="StatusComboBox" Width="200">
+                            <ComboBoxItem Content="Đang sử dụng"/>
+                            <ComboBoxItem Content="Không sử dụng"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <TextBlock Text="Giá mỗi ngày:" Width="100" VerticalAlignment="Center"/>
+                        <TextBox x:Name="PriceTextBox" Width="200"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <TextBlock Text="Loại phòng:" Width="100" VerticalAlignment="Center"/>
+                        <TextBox x:Name="RoomTypeTextBox" Width="200"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+                        <Button Content="OK" Click="RoomPopup_RoomOkButton_Click" Width="75" Margin="0,0,5,0"/>
+                        <Button Content="Cancel" Click="RoomCancelButton_Click" Width="75"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Popup>
+    </Grid>
+</Window>
